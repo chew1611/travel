@@ -1,0 +1,280 @@
+
+.rowt {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+.form-select:hover{
+  cursor: pointer;
+}
+
+  .form-select{
+    width: 100%;
+ 
+  }
+
+  .col-main5 {
+    flex: 1; 
+    border: 1px solid rgba(0, 0, 0, 0.5); background-color: none;
+  }  
+  
+  .col-complementary5 {
+    flex: 1;  background-color: none;
+  }
+  
+  /* Responsive: */
+  
+  @media only screen and (min-width: 640px) {
+    .layout5 {
+      display: flex;   background-color: none;
+    }
+  }
+  
+  /* etc */
+  
+
+  
+  .container5 {
+    max-width: 60em;
+    margin-right: auto;
+    margin-left: auto; background-color: none;
+  }
+  
+  .col5 {
+    padding: 1em;
+    margin: 0 2px 2px 0;
+    background-color: none;
+
+  }
+  ::-webkit-inner-spin-button { 
+    display:none;
+  }
+  ::-webkit-calendar-picker-indicator { background-color:white}
+  input[type=date]{
+    font-size:16px;
+    border-radius: 5px;
+    width: 55%;
+    border: 1px solid white;
+    height: 33px;
+  }
+  ::-webkit-datetime-edit-text { color:#555555}
+  ::-webkit-datetime-edit-month-field { color:#555555 }
+  ::-webkit-datetime-edit-day-field { color: #555555; }
+  ::-webkit-datetime-edit-year-field { color:#555555; }
+  ::-webkit-calendar-picker-indicator{ 
+    background-image: url(http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Calendar-icon.png);
+        background-position:center;
+         background-size:20px 20px;
+         background-repeat:no-repeat;
+        color:rgba(204,204,204,0);
+  }
+ 
+.hup{
+  height: 100vh;
+}
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-color:skyblue;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.tripf{
+  
+
+  height: 600px;
+  margin-top: 0%;
+
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+
+}.tab {
+  overflow: hidden;
+
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: none;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+  border-top: none;background-color: white;
+}
+.flys{
+  background-image: url(https://www.planetware.com/wpimages/2019/10/netherlands-in-pictures-most-beautiful-places-amsterdam.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+.rowtt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coltt {
+  flex: 1 0 4%; /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black; 
+
+}
+.o1{
+  width: 100%;
+  margin: 5%;
+}.o1:hover{
+  cursor: pointer;
+}
+.circle{
+  background: lightblue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.hbb{
+  border: 1px solid white;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin: 5%;
+}.iy{
+  width: 35%;
+}
+.com {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex:1 0 4%; /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+ 
+
+  height: 210px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black; background:lavender;
+
+}
+.sma{
+  border: 1px solid lavender;
+  width:55%;
+  font-size: 12px;
+}  @media (min-width: 200px) and (max-width: 912px){
+  .iy{
+    width: 100%;
+  }
+  .sma{
+    font-size: 8px;
+  }
+  
+ 
+}
+
+
+
+.p09{
+  font-size: 12px;
+}
+
+
+.o3{
+  width: 55%;
+}
+
+
+@media(max-width:933px){
+ 
+ 
+  .mf{
+    width: 100%;
+  }
+  .null{
+    display: none;
+  }
+}
+
+
+
+.p00{
+  width: 100%;
+  height: 100vh;
+}
+
+@media (min-width: 200px) and (max-width:560px){
+  .dr{
+margin-top: 56%;
+  }
+}
